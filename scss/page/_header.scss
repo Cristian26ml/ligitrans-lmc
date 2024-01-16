@@ -20,9 +20,9 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 20px;
-            .img-logo{
-                img{}
-            }
+//            .img-logo{
+//                img{}
+//            }
             div{
                 img{
                     border: 5px solid #0B60A9;
@@ -40,9 +40,7 @@
         width: 1170px;
         background-color: #0B60A9 !important;
         .container-fluid{
-            button{
-    
-            }
+//            button{}
             .collapse{
                 .navbar-nav{
                     .nav-item{
@@ -60,9 +58,7 @@
                     }
                 }
                 .d-flex{
-                    .form-control{
-
-                    }
+//                    .form-control{}
                     .btn{
                         color: aliceblue;
                         border: none;
@@ -78,7 +74,7 @@
 #carouselExampleInterval{
     .carousel-inner{
         .carousel-item{
-            img{}
+//            img{}
             .caption-wrap{
                 display: flex;
                 flex-direction: column;
@@ -123,18 +119,14 @@
             }
         }
     }
-    .carousel-control-prev{
-        .carousel-control-prev-icon{
-
-        }
-        .visually-hidden{
-
-        }
-    }
-    .carousel-control-next{
-        .carousel-control-next-icon{}
-        .visually-hidden{}
-    }
+//    .carousel-control-prev{
+//        .carousel-control-prev-icon{}
+//        .visually-hidden{}
+//    }
+//    .carousel-control-next{
+//        .carousel-control-next-icon{}
+//        .visually-hidden{}
+//    }
 }
 
 
@@ -180,7 +172,7 @@
                             display: inline;
                             width: 62%;
                             float: left;
-                            option{}
+                            //option{}
                         }
                         .button-normal{
                             width: 200px;
@@ -194,7 +186,7 @@
                             text-transform: uppercase;
                             letter-spacing: 0.1em;
                             margin-left: 15px;
-                            span{}
+                            //span{}
                         }
                     }
                 }
@@ -260,15 +252,13 @@
             }
             .carousel-control-prev{
                 padding-top: 12rem;
-                .carousel-control-prev-icon{
-        
-                }
-                .visually-hidden{}
+                //.carousel-control-prev-icon{}
+                //.visually-hidden{}
             }
             .carousel-control-next{
                 padding-top: 12rem;
-                .carousel-control-next-icon{}
-                .visually-hidden{}
+                //.carousel-control-next-icon{}
+                //.visually-hidden{}
             }
         }
     }

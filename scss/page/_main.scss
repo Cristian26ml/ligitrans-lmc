@@ -1,0 +1,117 @@
+.all-main{
+        display: flex;
+        background-color: azure;
+        width: 100%;
+        padding: 260px 0 60px 0;
+        justify-content: center;    .group-main{
+        width: 1170px;
+        .title-main{
+            h4{
+                font-size: 2rem;
+                font-weight: 800;
+                text-decoration: underline;
+                text-align: center;
+                margin-bottom: 80px;
+            }
+        }
+        .choose{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px;
+            .card{
+                .row{
+                    display: flex;
+                    align-items: center;
+                    .col-md-4{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .col-md-8{
+                        .card-body{
+                            .card-title{
+                                font-size: 18px;
+                                font-weight: 900;
+                            }
+                            .card-text{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }   
+}
+.Services{
+    div{
+        img{
+            position: absolute;
+            width: 100%;
+        }
+        .form-price{
+            position: absolute;
+            z-index: 1000;
+            padding-top: 20%;
+            gap: 50px;
+            display: flex;
+            justify-content: center;
+            min-height: 200px;
+            min-width: 100%;
+            max-width: 100%;
+            .intro-section{
+                h3{
+                    font-size: 24px;
+                    font-weight: 900;
+                    color: aliceblue;
+                }
+                p{
+                    font-size: 16px;
+                    color: aliceblue;
+                }
+            }
+            form{
+                background-color: #0B60A9;
+                padding: 65px;
+                .mb-3{
+                    label{
+                        color: aliceblue;
+                    }
+                    input{
+                        color: aliceblue;
+                    }
+                    div{
+                        color: aliceblue;
+                    }
+                }
+                .check{
+                    display: flex;
+                    .extra-services{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        .form-check{
+                            .form-check-input{
+                                color: aliceblue;
+                            }
+                            .form-check-label{
+                                color: aliceblue;
+                            }    
+                        }
+                    }
+                    .fragil{
+                        .form-check{
+                            .form-check-input{
+                                color: aliceblue;
+                            }
+                            .form-check-label{
+                                color: aliceblue;
+                            }    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
