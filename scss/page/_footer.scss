@@ -1,0 +1,109 @@
+#footer{
+    background-image: url(/img/earth.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 100px 0 300px 0;
+    .container{
+        .img-footer{
+            .row{
+                .footer-wrap{
+                    .widget-footer{
+                        .short-desc{
+                            .logo-footer{
+                                img{
+                                    width: 300px;
+                                }
+                                p{
+                                    color: aliceblue;
+                                }
+                                p{
+                                    color: aliceblue;
+                                }
+                            }
+                        }
+                    }
+                    .widget-footer{
+                        .recent-post{
+                            .title{
+                                color: aliceblue;
+                            }
+                            .footer-content{
+                                .post-item{
+                                    padding: 0px 0px 15px;
+                                    a{
+                                        .post-thumb{
+                                            float: left;
+                                            margin-right: 15px;
+                                            position: relative;
+                                            img{
+                                                width: 100px;
+                                            }
+
+                                        }
+                                    }
+                                    .post-content{
+                                        overflow: hidden;
+                                        box-sizing: unset;
+                                        a{
+                                            text-decoration: none !important;
+                                            h4{
+                                                color: aliceblue;
+                                                font-size: 16px;
+                                            }
+                                        }
+                                        p{
+                                            color: aliceblue;
+                                            font-size: 14px;
+                                            margin: 0px 0px 10px;
+                                        }
+                                        .meta{
+                                            .date{
+                                                color: aliceblue;
+                                            }
+                                        }
+                                    }
+                                }
+                                .post-item{
+                                    padding: 15px 0px;
+                                    a{
+                                        .post-thumb{
+                                            float: left;
+                                            margin-right: 15px;
+                                            position: relative;
+                                            img{
+                                                width: 100px;
+                                            }    
+                                        }
+                                    }
+                                    .post-content{
+                                        overflow: hidden;
+                                        box-sizing: unset;
+                                        a{
+                                            text-decoration: none !important;
+                                            h4{
+                                                font-size: 16px;
+                                                color: aliceblue;
+                                                font-weight: 800;
+                                            }
+                                        }
+                                        p{
+                                            color: aliceblue;
+                                            font-size: 14px;
+                                            margin: 0px 0px 10px;
+                                        }
+                                        .meta{
+                                            .date{
+                                                color: aliceblue;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

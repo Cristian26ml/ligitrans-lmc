@@ -231,6 +231,10 @@ html, body {
   grid-template-rows: 1fr 1fr;
   gap: 10px;
 }
+.all-main .group-main .choose .card {
+  background-color: rgb(210, 210, 210);
+  border: none;
+}
 .all-main .group-main .choose .card .row {
   display: flex;
   align-items: center;
@@ -246,60 +250,145 @@ html, body {
   font-size: 14px;
 }
 
-.Services div img {
-  position: absolute;
-  width: 100%;
+.services-calculator {
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding: 100px 0 151px 0;
 }
-.Services div .form-price {
+.services-calculator img {
   position: absolute;
+}
+.services-calculator .container .row .services-calculator-wrap {
   z-index: 1000;
-  padding-top: 20%;
   gap: 50px;
   display: flex;
-  justify-content: center;
   min-height: 200px;
   min-width: 100%;
   max-width: 100%;
 }
-.Services div .form-price .intro-section h3 {
+.services-calculator .container .row .services-calculator-wrap .intro-section {
+  padding: 20px;
+}
+.services-calculator .container .row .services-calculator-wrap .intro-section h3 {
   font-size: 24px;
   font-weight: 900;
   color: aliceblue;
 }
-.Services div .form-price .intro-section p {
+.services-calculator .container .row .services-calculator-wrap .intro-section p {
   font-size: 16px;
   color: aliceblue;
 }
-.Services div .form-price form {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform {
+  width: 560px;
+  height: 643px;
   background-color: #0B60A9;
   padding: 65px;
 }
-.Services div .form-price form .mb-3 label {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .mb-3 label {
   color: aliceblue;
 }
-.Services div .form-price form .mb-3 input {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .mb-3 input {
   color: aliceblue;
 }
-.Services div .form-price form .mb-3 div {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .mb-3 div {
   color: aliceblue;
 }
-.Services div .form-price form .check {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .check {
   display: flex;
+  justify-content: space-around;
 }
-.Services div .form-price form .check .extra-services {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .check .extra-services {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.Services div .form-price form .check .extra-services .form-check .form-check-input {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .check .extra-services .form-check h5 {
+  font-size: 15px;
+  font-weight: bold;
   color: aliceblue;
 }
-.Services div .form-price form .check .extra-services .form-check .form-check-label {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .check .extra-services .form-check .form-check-input {
   color: aliceblue;
 }
-.Services div .form-price form .check .fragil .form-check .form-check-input {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .check .extra-services .form-check .form-check-label {
+  font-size: 13px;
   color: aliceblue;
 }
-.Services div .form-price form .check .fragil .form-check .form-check-label {
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .check .fragil .form-check h5 {
+  font-weight: bold;
+  font-size: 15px;
+  color: aliceblue;
+}
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .check .fragil .form-check .form-check-input {
+  color: aliceblue;
+}
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform .check .fragil .form-check .form-check-label {
+  font-size: 13px;
+  color: aliceblue;
+}
+.services-calculator .container .row .services-calculator-wrap .form-section #calculationform #totalPrice {
+  display: block;
+  background-color: #08487e;
+  padding: 10px 15px;
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#footer {
+  background-image: url(/img/earth.jpg);
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  padding: 100px 0 300px 0;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .short-desc .logo-footer img {
+  width: 300px;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .short-desc .logo-footer p {
+  color: aliceblue;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .short-desc .logo-footer p {
+  color: aliceblue;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .title {
+  color: aliceblue;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item a .post-thumb {
+  float: left;
+  margin-right: 15px;
+  position: relative;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item a .post-thumb img {
+  width: 150px;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item .post-content a h4 {
+  color: aliceblue;
+  font-size: 16px;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item .post-content p {
+  color: aliceblue;
+  font-size: 14px;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item .post-content .meta .date {
+  color: aliceblue;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item a .post-thumb {
+  float: left;
+  margin-right: 15px;
+  position: r img;
+  position-width: 150px;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item .post-content a h4 {
+  font-size: 16px;
+  color: aliceblue;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item .post-content p {
+  color: aliceblue;
+  font-size: 14px;
+}
+#footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item .post-content .meta .date {
   color: aliceblue;
 }/*# sourceMappingURL=style.css.map */

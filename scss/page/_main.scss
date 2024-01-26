@@ -20,6 +20,8 @@
             grid-template-rows: 1fr 1fr;
             gap: 10px;
             .card{
+                background-color: rgb(210, 210, 210);
+                border: none;
                 .row{
                     display: flex;
                     align-items: center;
@@ -44,74 +46,106 @@
         }
     }   
 }
-.Services{
-    div{
-        img{
-            position: absolute;
-            width: 100%;
-        }
-        .form-price{
-            position: absolute;
-            z-index: 1000;
-            padding-top: 20%;
-            gap: 50px;
-            display: flex;
-            justify-content: center;
-            min-height: 200px;
-            min-width: 100%;
-            max-width: 100%;
-            .intro-section{
-                h3{
-                    font-size: 24px;
-                    font-weight: 900;
-                    color: aliceblue;
-                }
-                p{
-                    font-size: 16px;
-                    color: aliceblue;
-                }
-            }
-            form{
-                background-color: #0B60A9;
-                padding: 65px;
-                .mb-3{
-                    label{
-                        color: aliceblue;
-                    }
-                    input{
-                        color: aliceblue;
-                    }
-                    div{
-                        color: aliceblue;
-                    }
-                }
-                .check{
-                    display: flex;
-                    .extra-services{
-                        display: flex;
-                        flex-direction: column;
-                        gap: 10px;
-                        .form-check{
-                            .form-check-input{
-                                color: aliceblue;
-                            }
-                            .form-check-label{
-                                color: aliceblue;
-                            }    
-                        }
-                    }
-                    .fragil{
-                        .form-check{
-                            .form-check-input{
-                                color: aliceblue;
-                            }
-                            .form-check-label{
-                                color: aliceblue;
-                            }    
-                        }
-                    }
-                }
-            }
-        }
+.services-calculator{
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    padding: 100px 0 151px 0;
+    img{
+        position:absolute;
     }
+    .container{
+        .row{
+            .services-calculator-wrap{
+                z-index: 1000;
+                gap: 50px;
+                display: flex;
+                min-height: 200px;
+                min-width: 100%;
+                max-width: 100%;
+                .intro-section{
+                    padding: 20px;
+                    h3{
+                        font-size: 24px;
+                        font-weight: 900;
+                        color: aliceblue;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: aliceblue;
+                    }
+                }
+                .form-section{
+                    #calculationform{
+                        width: 560px;
+                        height: 643px;
+                        background-color: #0B60A9;
+                        padding: 65px;
+                        .mb-3{
+                            label{
+                                color: aliceblue;
+                            }
+                            input{
+                                color: aliceblue;
+                            }
+                            div{
+                                color: aliceblue;
+                            }
+                        }
+                        .check{
+                            display: flex;
+                            justify-content: space-around;
+                            .extra-services{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 10px;
+                                .form-check{
+                                    h5{
+                                        font-size: 15px;
+                                        font-weight: bold;
+                                        color: aliceblue;
+                                    }
+                                    .form-check-input{
+                                        color: aliceblue;
+                                    }
+                                    .form-check-label{
+                                        font-size: 13px;
+                                        color: aliceblue;
+                                    }    
+                                }
+                            }
+                            .fragil{
+                                .form-check{
+                                    h5{
+                                        font-weight: bold;
+                                        font-size: 15px;
+                                        color: aliceblue;
+                                    }
+                                    .form-check-input{
+                                        color: aliceblue;
+                                    }
+                                    .form-check-label{
+                                        font-size: 13px;
+                                        color: aliceblue;
+                                    }    
+                                }
+                            }
+                        }
+                        #totalPrice{
+                            display: block;
+                            background-color: #08487e;
+                            padding: 10px 15px;
+                            margin-top: 30px;
+                            color: #ffffff;
+                            font-size: 18px;
+                            text-transform: uppercase;
+                        }
+                    }
+                       
+                }
+            }
+
+        }    
+    }
+
 }
