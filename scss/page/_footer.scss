@@ -1,14 +1,20 @@
 #footer{
-    background-image: url(/IMG/earth.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
-    padding: 100px 0 300px 0;
+    .img-footer-earth{
+        img{
+            width: 100%;
+            position: absolute;
+        }
+    }
     .container{
+        padding-top: 63px;
         .img-footer{
             .row{
                 .footer-wrap{
                     .widget-footer{
+                        position: relative;
                         .short-desc{
                             .logo-footer{
                                 img{
@@ -110,7 +116,6 @@
         background-color: rgba(1, 47, 84, 0.8);
         position: absolute;
         width: 100%;
-        bottom: 0;
         padding: 60px 0;
         .container{
             .social-icon{
@@ -126,7 +131,6 @@
                             font-size: 24px;
                             .fa-brands{
                                 display: inline-block;
-                                //font: normal normal normal 14px/1 FontAwesome;
                                 font-size: inherit;
                                 text-rendering: auto;
                             }
