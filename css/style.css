@@ -259,7 +259,12 @@ html, body {
 .services-calculator img {
   position: absolute;
 }
+.services-calculator .container .row {
+  display: flex;
+  flex-wrap: nowrap;
+}
 .services-calculator .container .row .services-calculator-wrap {
+  padding-top: 100px;
   z-index: 1000;
   gap: 50px;
   display: flex;
@@ -278,6 +283,9 @@ html, body {
 .services-calculator .container .row .services-calculator-wrap .intro-section p {
   font-size: 16px;
   color: aliceblue;
+}
+.services-calculator .container .row .services-calculator-wrap .form-section {
+  width: 0;
 }
 .services-calculator .container .row .services-calculator-wrap .form-section #calculationform {
   width: 560px;
@@ -416,6 +424,39 @@ html, body {
 }
 #footer .container .img-footer .row .footer-wrap .widget-footer .recent-post .footer-content .post-item .post-content .meta .date {
   color: aliceblue;
+}
+#footer .copyright {
+  background-color: rgba(1, 47, 84, 0.8);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 60px 0;
+}
+#footer .copyright .container .social-icon {
+  text-align: center;
+}
+#footer .copyright .container .social-icon ul {
+  padding: 0;
+  margin-bottom: 30px;
+}
+#footer .copyright .container .social-icon ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+#footer .copyright .container .social-icon ul li a {
+  color: #ffffff;
+  font-size: 24px;
+}
+#footer .copyright .container .social-icon ul li a .fa-brands {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+}
+#footer .copyright .container p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
 }
 
 /*# sourceMappingURL=style.css.map */

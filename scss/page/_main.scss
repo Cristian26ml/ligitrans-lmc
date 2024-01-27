@@ -56,7 +56,10 @@
     }
     .container{
         .row{
+            display: flex;
+            flex-wrap: nowrap;           
             .services-calculator-wrap{
+                padding-top: 100px;
                 z-index: 1000;
                 gap: 50px;
                 display: flex;
@@ -76,6 +79,7 @@
                     }
                 }
                 .form-section{
+                    width: 0;
                     #calculationform{
                         width: 560px;
                         height: 643px;

@@ -106,4 +106,40 @@
             }
         }
     }
+    .copyright{
+        background-color: rgba(1, 47, 84, 0.8);
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        padding: 60px 0;
+        .container{
+            .social-icon{
+                text-align: center;
+                ul{
+                    padding: 0;
+                    margin-bottom: 30px;
+                    li{
+                        display: inline-block;
+                        margin: 0 20px;
+                        a{
+                            color: #ffffff;
+                            font-size: 24px;
+                            .fa-brands{
+                                display: inline-block;
+                                //font: normal normal normal 14px/1 FontAwesome;
+                                font-size: inherit;
+                                text-rendering: auto;
+                            }
+                        }
+                    }
+                }
+            }
+            p{
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 300;
+                letter-spacing: 0.1em;
+            }
+        }
+    }
 }
